@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="refresh" content="0;url=index.html">
+<script>location.replace("index.html" + location.hash);</script>
+<title>K3 Experiences | Luxury Event Design &amp; Planning</title>
+<meta name="description" content="Luxury event planning for picnics, weddings, private celebrations, corporate events and large-scale productions.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;1,400&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F2E6B1;--paper:#FAF3D6;--burg:#540d19;--denim:#7D9CBF;--brown:#332521;--line:rgba(110,20,35,.25);--serif:'Bodoni Moda',Georgia,serif;--script:'Pinyon Script','Snell Roundhand',cursive;--sans:'Jost',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--paper);color:var(--brown);font:300 17px/1.7 var(--sans)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+a{color:inherit}h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.08;margin:0;color:var(--burg)}
+h2{font-size:clamp(2rem,5vw,3.6rem);letter-spacing:-.01em}h3{font-size:1.4rem}
+:focus-visible{outline:2px solid var(--burg);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}section{padding:110px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;margin:0 0 18px;color:var(--burg)}
+.btn{display:inline-block;padding:15px 30px;border:1px solid var(--burg);border-radius:999px;background:var(--burg);color:var(--paper);text-decoration:none;font:400 .9rem var(--sans);letter-spacing:.06em;cursor:pointer;transition:background .3s,color .3s}
+.btn:hover{background:transparent;color:var(--burg)}.btn.ghost{background:transparent;color:var(--burg)}.btn.ghost:hover{background:var(--burg);color:var(--paper)}
+nav{position:fixed;inset:0 0 auto;z-index:50;padding:18px 0;padding-top:calc(18px + env(safe-area-inset-top,0px));transition:background .4s,padding .4s;color:var(--paper)}
+nav.solid{background:rgba(250,243,214,.92);backdrop-filter:blur(10px);color:var(--burg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font:400 1.5rem var(--serif);text-decoration:none;letter-spacing:.02em}.logo i{font:1.7rem var(--script)}
+.links{display:flex;gap:26px;align-items:center;font-size:.9rem}.links a{text-decoration:none;opacity:.9}.links a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px}
+nav .btn{padding:10px 22px;background:var(--cream);color:var(--burg);border-color:var(--cream)}nav.solid .btn{background:var(--burg);color:var(--paper);border-color:var(--burg)}
+.burger{display:none;background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:8px}
+@media(max-width:900px){.burger{display:block}.links{position:fixed;inset:0;background:var(--burg);color:var(--paper);flex-direction:column;justify-content:center;gap:22px;font:400 2rem var(--serif);opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s}.links.open{opacity:1;visibility:visible}nav.menu{color:var(--paper)}.links .btn{font:400 1rem var(--sans)}}
+.hero{min-height:100svh;display:flex;align-items:flex-end;padding:140px 0 70px;color:var(--paper);position:relative;overflow:hidden;background:radial-gradient(ellipse at 75% 30%,#c98a2e 0%,rgba(201,138,46,0) 55%),radial-gradient(ellipse at 20% 80%,#8a3b1a 0%,rgba(138,59,26,0) 60%),linear-gradient(160deg,#3B2A25,#2a1218 70%)}
+.hero .tag{position:absolute;top:96px;right:24px;font-size:.7rem;opacity:.6;letter-spacing:.1em}
+.hero .eyebrow{color:var(--cream)}.hero h1{color:#fff;position:relative}
+.hero .small{display:block;font-size:clamp(1rem,2.4vw,1.7rem);letter-spacing:.35em;text-transform:uppercase;margin-bottom:6px}
+.hero .big{display:block;font-size:clamp(2.5rem,12vw,10rem);letter-spacing:-.02em;line-height:.95}
+.hero .script{display:block;font:clamp(2.6rem,9vw,7rem)/1 var(--script);color:#fff;margin:-.32em 0 0 28vw}
+.hero p{max-width:520px;margin:26px 0 34px;color:#fff}.ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .btn{background:var(--cream);color:var(--burg);border-color:var(--cream)}.hero .btn:hover{background:transparent;color:var(--cream)}.hero .btn.ghost{background:transparent;color:var(--cream)}.hero .btn.ghost:hover{background:var(--cream);color:var(--burg)}
+.scroll{position:absolute;right:24px;bottom:70px;width:1px;height:70px;background:rgba(242,230,177,.35);overflow:hidden}.scroll::after{content:"";display:block;width:1px;height:24px;background:var(--cream);animation:s 2s infinite}@keyframes s{from{transform:translateY(-24px)}to{transform:translateY(70px)}}
+.head{max-width:640px;margin-bottom:56px}.head p{margin:16px 0 0}
+.cats{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+.cat{grid-column:span 4;position:relative;min-height:340px;border-radius:14px;overflow:hidden;color:var(--paper);text-decoration:none;display:flex;align-items:flex-end;padding:26px;cursor:pointer;border:1px solid var(--line);background:none;text-align:left;font:inherit}
+.cat:nth-child(3n+1){grid-column:span 5}.cat:nth-child(3n+2){grid-column:span 3}.cat:nth-child(3n){grid-column:span 4}
+.cat .bg{position:absolute;inset:0;transition:transform .8s}.cat:hover .bg{transform:scale(1.06)}.cat::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(42,18,24,.82))}
+.cat div{position:relative;z-index:1}.cat h3{color:var(--paper);font-size:1.5rem}.cat p{margin:8px 0 12px;font-size:.88rem;line-height:1.5;color:var(--cream)}.cat span{font-size:.82rem;letter-spacing:.1em;border-bottom:1px solid var(--cream)}
+@media(max-width:900px){.cat,.cat:nth-child(n){grid-column:span 12}}
+.split{display:grid;grid-template-columns:1fr 1fr;background:var(--cream)}.split .art{min-height:520px;background:radial-gradient(ellipse at 60% 40%,#d9a441,rgba(217,164,65,0) 60%),linear-gradient(150deg,#6E1423,#3B2A25)}
+.split .txt{padding:90px 7vw;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:22px}.split .txt p{margin:0;max-width:480px}
+@media(max-width:800px){.split{grid-template-columns:1fr}.split .art{min-height:320px}.split .txt{padding:60px 24px}}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;position:relative}.steps::before{content:"";position:absolute;top:26px;left:5%;right:5%;height:1px;background:var(--line)}
+.step b{display:grid;place-items:center;width:54px;height:54px;border-radius:50%;background:var(--paper);border:1px solid var(--burg);font:400 1.4rem var(--serif);color:var(--burg);position:relative;margin-bottom:20px}.step p{font-size:.95rem;margin:10px 0 0}
+@media(max-width:800px){.steps{grid-template-columns:1fr}.steps::before{display:none}}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}.filters button{padding:9px 20px;border:1px solid var(--burg);border-radius:999px;background:none;color:var(--burg);font:inherit;font-size:.9rem;cursor:pointer}.filters button[aria-pressed=true]{background:var(--burg);color:var(--paper)}
+.gal{columns:3 260px;column-gap:16px}.tile{display:block;width:100%;margin:0 0 16px;border:0;border-radius:12px;padding:20px;color:var(--paper);text-align:left;font:400 1rem var(--serif);cursor:zoom-in;break-inside:avoid;transition:transform .5s;position:relative;overflow:hidden}.tile:hover{transform:scale(1.02)}.tile small{display:block;font:300 .72rem var(--sans);opacity:.8;margin-top:4px}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(42,18,24,.94);display:none;align-items:center;justify-content:center;padding:24px;color:var(--paper);flex-direction:column;gap:18px;text-align:center}.lb.on{display:flex}.lb .pic{width:min(90vw,820px);height:min(60vh,520px);border-radius:14px}.lb button{background:none;border:1px solid var(--cream);color:var(--cream);border-radius:999px;padding:10px 24px;cursor:pointer;font:inherit}
+.why{background:var(--brown);color:var(--cream)}.why h2{color:var(--paper)}.why ul{list-style:none;margin:0;padding:0;columns:2 340px;column-gap:60px}.why li{padding:20px 0;border-bottom:1px solid rgba(242,230,177,.2);font:400 1.5rem var(--serif);break-inside:avoid}.why li span{display:block;font:300 .9rem var(--sans);color:var(--denim);margin-top:4px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.q{padding:30px;border:1px solid var(--line);border-radius:14px}.q p{font:italic 1.2rem/1.5 var(--serif);margin:0 0 18px;color:var(--burg)}.q small{font-size:.8rem}
+@media(max-width:800px){.quotes{grid-template-columns:1fr}}
+.jtools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px}input,select,textarea{width:100%;padding:14px 16px;border:1px solid var(--burg);border-radius:10px;background:var(--paper);color:var(--brown);font:inherit}.jtools input{max-width:360px}
+.posts{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.post{text-decoration:none}.post .c{aspect-ratio:4/5;border-radius:12px;margin-bottom:14px;transition:transform .5s}.post:hover .c{transform:scale(1.03)}.post small{font-size:.78rem;color:var(--burg)}.post h3{font-size:1.2rem;margin:4px 0}.post p{font-size:.85rem;margin:0;line-height:1.5}
+@media(max-width:900px){.posts{grid-template-columns:1fr 1fr}}@media(max-width:520px){.posts{grid-template-columns:1fr}}
+.empty{display:none;padding:30px 0}
+.final{text-align:center;color:var(--paper);background:radial-gradient(ellipse at 50% 120%,#c98a2e,rgba(201,138,46,0) 60%),linear-gradient(#2a1218,#6E1423)}.final h2{color:var(--paper);max-width:760px;margin:0 auto 20px}.final p{color:var(--cream);margin:0 auto 32px;max-width:480px}.final .btn{background:var(--cream);color:var(--burg);border-color:var(--cream)}.final .btn:hover{background:transparent;color:var(--cream)}
+.inq{background:var(--cream)}.form{max-width:680px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:36px}
+.prog{display:flex;gap:6px;margin-bottom:26px}.prog i{flex:1;height:3px;background:var(--line);border-radius:2px}.prog i.on{background:var(--burg)}
+.fs{display:none;border:0;padding:0;margin:0}.fs.on{display:block;animation:f .5s}@keyframes f{from{opacity:0;transform:translateY(8px)}}
+label{display:block;font-size:.88rem;margin:16px 0 6px}.err{color:#a3141f;font-size:.8rem;min-height:1em;margin-top:4px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:8px}.checks label{display:flex;gap:8px;align-items:center;margin:0;font-size:.9rem}.checks input{width:auto}
+.nav2{display:flex;justify-content:space-between;margin-top:28px}.hp{position:absolute;left:-9999px}
+.ok{display:none;text-align:center;padding:30px 0}.ok h3{font-size:2rem}
+footer{background:var(--brown);color:var(--cream);padding:80px 0 40px;font-size:.92rem}footer .g{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}footer h4{margin:0 0 12px;font:400 1.1rem var(--serif);color:var(--paper)}footer a{display:block;text-decoration:none;opacity:.85;padding:3px 0}footer a:hover{opacity:1;text-decoration:underline}footer .logo{color:var(--paper)}
+footer form{display:flex;gap:8px;margin-top:14px}footer input{background:transparent;color:var(--paper);border-color:rgba(242,230,177,.4)}
+@media(max-width:800px){footer .g{grid-template-columns:1fr 1fr}section{padding:80px 0}}
+</style></head><body>
+<nav id="nav"><div class="wrap"><a class="logo" href="#top">K3 <i>Experiences</i></a>
+<button class="burger" id="burger" aria-expanded="false" aria-controls="links">Menu</button>
+<div class="links" id="links"><a href="#top">Home</a><a href="#experiences">Our Experiences</a><a href="#weddings">Weddings</a><a href="#corporate">Corporate Events</a><a href="#gallery">Gallery</a><a href="#about">About Us</a><a href="#journal">Journal</a><a class="btn" href="#plan">Plan Your Event</a></div></div></nav>
+
+<header class="hero" id="top"><span class="tag">Sample concept imagery. Replace with real event photography.</span>
+<div class="wrap"><p class="eyebrow">Experiences designed around you</p>
+<h1 aria-label="Life is made of experiences. Let’s make them unforgettable."><span class="small" aria-hidden="true">Life is made of</span><span class="big" aria-hidden="true">EXPERIENCES</span><span class="script" aria-hidden="true">let’s make them unforgettable</span></h1>
+<p>Thoughtfully designed celebrations, beautifully executed events, and extraordinary experiences tailored to your vision.</p>
+<div class="ctas"><a class="btn" href="#plan">Let’s Plan Something Beautiful</a><a class="btn ghost" href="#experiences">Explore Our Experiences</a></div></div><div class="scroll" aria-hidden="true"></div></header>
+
+<section id="experiences"><div class="wrap"><div class="head"><p class="eyebrow">Our experiences</p><h2>One Vision. Endless Possibilities.</h2><p>Whatever you’re imagining, there’s a beautiful way to bring it to life.</p></div><div class="cats" id="cats"></div></div></section>
+
+<div class="split" id="about"><div class="art" role="img" aria-label="Sample concept image"></div><div class="txt"><h2>Little Gatherings. Grand Celebrations. Beautifully Done.</h2><p>Sometimes it’s a quiet afternoon picnic for two. Sometimes it’s a wedding filled with everyone you love. Sometimes it’s a room full of ideas, a stage full of possibility, or a celebration on a scale you’ve always imagined.</p><p>Whatever the occasion, we bring the same care, creativity, and attention to every detail.</p><a class="btn" href="#how">Discover Our Approach</a></div></div>
+
+<section id="how"><div class="wrap"><div class="head"><h2>From First Idea to Final Toast.</h2></div><div class="steps">
+<div class="step"><b>1</b><h3>Tell Us Your Vision</h3><p>Share your event idea, occasion, preferred date, guest count, location, and budget.</p></div>
+<div class="step"><b>2</b><h3>We Design the Experience</h3><p>Our team develops a tailored concept, styling direction, and event proposal.</p></div>
+<div class="step"><b>3</b><h3>Every Detail Comes Together</h3><p>We coordinate vendors, décor, catering, logistics, entertainment, and other agreed services.</p></div>
+<div class="step"><b>4</b><h3>You Enjoy the Experience</h3><p>We manage the agreed event-day arrangements so you can focus on the people who matter.</p></div></div></div></section>
+
+<section id="gallery" style="padding-top:0"><div class="wrap"><div class="head"><h2>A Glimpse of What’s Possible.</h2><p>Sample concepts, not completed events. Real portfolio photography will replace them.</p></div><div class="filters" id="filters" role="group" aria-label="Filter gallery"></div><div class="gal" id="gal"></div></div></section>
+
+<section class="why" id="weddings"><div class="wrap"><div class="head"><h2>The Details Make the Difference.</h2></div><ul>
+<li>Personalized event concepts<span>Designed around your story, never a template.</span></li><li>Transparent proposals and budgets<span>You see what you’re paying for.</span></li><li>Thoughtful design and styling<span>Texture, light and colour, considered.</span></li><li>Trusted vendor coordination<span>One team managing every supplier.</span></li><li>Flexible sizes and formats<span>From two guests to two thousand.</span></li><li>Organized communication<span>Clear updates from first call to final toast.</span></li><li>Attention to detail<span>The small things guests remember.</span></li><li>Professional event-day coordination<span>Calm, prepared, present.</span></li></ul></div></section>
+
+<section id="corporate"><div class="wrap"><div class="head"><h2>Experiences Worth Remembering.</h2><p>Sample content shown until verified client reviews are supplied.</p></div><div class="quotes">
+<figure class="q" style="margin:0"><p>“Sample testimonial: replace with a genuine client review.”</p><small>Sample client · Wedding</small></figure>
+<figure class="q" style="margin:0"><p>“Sample testimonial: replace with a genuine client review.”</p><small>Sample client · Corporate event</small></figure>
+<figure class="q" style="margin:0"><p>“Sample testimonial: replace with a genuine client review.”</p><small>Sample client · Private celebration</small></figure></div></div></section>
+
+<section id="journal" style="padding-top:0"><div class="wrap"><div class="head"><h2>Ideas for Your Next Beautiful Experience.</h2></div><div class="jtools"><input id="q" type="search" placeholder="Search the journal" aria-label="Search the journal"></div><div class="posts" id="posts"></div><p class="empty" id="empty">No articles match that search. Try “picnic” or “wedding”.</p></div></section>
+
+<section class="final"><div class="wrap"><h2>Whatever You’re Celebrating, Let’s Make It Beautiful.</h2><p>Tell us what you’re dreaming of. We’ll help you turn it into an experience worth remembering.</p><a class="btn" href="#plan">Start Planning Your Event</a></div></section>
+
+<section class="inq" id="plan"><div class="wrap"><div class="head"><p class="eyebrow">Your consultation</p><h2>Tell us about your event.</h2><p>No account needed. We’ll reply with a custom quote request, never a fixed package price.</p></div>
+<form class="form" id="form" novalidate><div class="prog" id="prog"><i></i><i></i><i></i><i></i><i></i></div>
+<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<fieldset class="fs on"><legend class="eyebrow">Event details</legend>
+<label for="type">Event type</label><select id="type" name="type" required></select><div class="err"></div>
+<label for="name">Event name or occasion</label><input id="name" name="name" required><div class="err"></div>
+<label for="date">Preferred date</label><input id="date" name="date" type="date" required><div class="err"></div>
+<label for="alt">Alternative date (optional)</label><input id="alt" name="alt" type="date"></fieldset>
+<fieldset class="fs"><legend class="eyebrow">Event scale</legend>
+<label for="guests">Estimated guest count</label><input id="guests" name="guests" type="number" min="1" required><div class="err"></div>
+<label for="loc">Preferred location or venue</label><input id="loc" name="loc"><label for="env">Setting</label><select id="env" name="env"><option>Undecided</option><option>Indoor</option><option>Outdoor</option></select></fieldset>
+<fieldset class="fs"><legend class="eyebrow">Services</legend><div class="checks" id="svcs"></div></fieldset>
+<fieldset class="fs"><legend class="eyebrow">Budget and vision</legend>
+<label for="cur">Currency</label><select id="cur" name="cur"><option>KES</option><option>USD</option><option>EUR</option><option>GBP</option></select>
+<label for="bud">Estimated budget (or leave blank to request a custom quote)</label><input id="bud" name="bud" type="number" min="0">
+<label for="style">Preferred style or theme</label><input id="style" name="style"><label for="more">Additional requirements</label><textarea id="more" name="more" rows="3"></textarea></fieldset>
+<fieldset class="fs"><legend class="eyebrow">Contact details</legend>
+<label for="fn">Full name</label><input id="fn" name="fn" autocomplete="name" required><div class="err"></div>
+<label for="em">Email address</label><input id="em" name="em" type="email" autocomplete="email" required><div class="err"></div>
+<label for="ph">Phone or WhatsApp number</label><input id="ph" name="ph" type="tel" autocomplete="tel" required><div class="err"></div>
+<label for="pm">Preferred contact method</label><select id="pm" name="pm"><option>WhatsApp</option><option>Email</option><option>Phone call</option></select></fieldset>
+<div class="nav2"><button type="button" class="btn ghost" id="back">Back</button><button type="button" class="btn" id="next">Continue</button></div></form>
+<div class="ok form" id="ok"><h3>Thank you. Your inquiry is in.</h3><p>We’ll be in touch by your preferred contact method to start designing your event.</p></div></div></section>
+
+<footer><div class="wrap"><div class="g"><div><a class="logo" href="#top">K3 <i>Experiences</i></a><p>Every experience deserves to be extraordinary. You dream it. We design it. We bring it to life.</p>
+<form id="news"><input type="email" placeholder="Your email" aria-label="Newsletter email" required><button class="btn" style="background:var(--cream);color:var(--burg)">Join</button></form><p id="nm" style="font-size:.8rem;min-height:1em"></p></div>
+<div><h4>Experiences</h4><div id="flinks"></div></div>
+<div><h4>Contact</h4><a href="mailto:hello@example.com">hello@example.com</a><a href="tel:+254115890933">0115890933</a><a href="https://wa.me/254115890933" target="_blank" rel="noopener">WhatsApp us</a><a href="#top">Service areas: add yours</a></div>
+<div><h4>Follow</h4><a href="#top">Instagram</a><a href="#top">Pinterest</a><a href="#top">Privacy policy</a><a href="#top">Terms of service</a></div></div></div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Gallery image"><div class="pic" id="lbp"></div><div id="lbt"></div><button id="lbx">Close</button></div>
+
+<script>
+const T=[["#6E1423","#c98a2e"],["#3B2A25","#7D9CBF"],["#8a3b1a","#F2E6B1"],["#2a1218","#7D9CBF"],["#6E1423","#3B2A25"]];
+const bg=i=>`linear-gradient(${140+i*23}deg,${T[i%5][0]},${T[i%5][1]})`;
+const CATS=[["Luxury Picnics","Romantic dates, birthday picnics, proposals, anniversary setups and private outdoor dining."],["Weddings and Engagements","Traditional weddings, intimate ceremonies, engagement parties, bridal showers and full planning."],["Birthdays and Private Celebrations","Milestone birthdays, surprise parties, baby showers, graduations and family celebrations."],["Corporate Events","Conferences, product launches, networking, team-building, award ceremonies and executive dinners."],["Social Events and Parties","Themed parties, reunions, festive celebrations, private dinners and exclusive gatherings."],["Festivals and Large-Scale Events","Concerts, community festivals, public celebrations and exhibitions."],["Proposals and Romantic Experiences","Bespoke proposals, romantic dinners, anniversary experiences and intimate escapes."],["Brand Activations and Experiential Marketing","Pop-ups, promotional events, influencer gatherings and immersive launches."],["Private and Custom Events","Any unique event that doesn’t fit a category."]];
+const $=s=>document.querySelector(s);
+$("#cats").innerHTML=CATS.map((c,i)=>`<button class="cat" data-t="${c[0]}"><div class="bg" style="background:${bg(i)}"></div><div><h3>${c[0]}</h3><p>${c[1]}</p><span>Discover Experience</span></div></button>`).join("");
+$("#type").innerHTML='<option value="">Select an event type</option>'+CATS.map(c=>`<option>${c[0]}</option>`).join("");
+$("#flinks").innerHTML=CATS.slice(0,6).map(c=>`<a href="#experiences">${c[0]}</a>`).join("");
+document.addEventListener("click",e=>{const c=e.target.closest(".cat");if(c){$("#type").value=c.dataset.t;location.hash="plan";$("#plan").scrollIntoView()}});
+const G=[["Romantic picnic setup","Picnics"],["Garden wedding aisle","Weddings"],["Elegant tablescape","Private Celebrations"],["Luxury birthday decor","Private Celebrations"],["Corporate dinner","Corporate"],["Conference staging","Corporate"],["Outdoor celebration","Picnics"],["Large-scale installation","Large-Scale Events"],["Wedding reception","Weddings"]];
+const F=["All","Picnics","Weddings","Private Celebrations","Corporate","Large-Scale Events"];let cur="All";
+function gal(){$("#filters").innerHTML=F.map(f=>`<button aria-pressed="${f==cur}" data-f="${f}">${f}</button>`).join("");
+$("#gal").innerHTML=G.map((g,i)=>[g,i]).filter(([g])=>cur=="All"||g[1]==cur).map(([g,i])=>`<button class="tile" data-i="${i}" style="background:${bg(i)};height:${[260,340,220,300][i%4]}px">${g[0]}<small>${g[1]} · sample concept</small></button>`).join("")}
+gal();
+document.addEventListener("click",e=>{const f=e.target.closest("[data-f]");if(f){cur=f.dataset.f;gal()}const t=e.target.closest(".tile");if(t){const i=t.dataset.i;$("#lbp").style.background=bg(i);$("#lbt").textContent=G[i][0]+" (sample concept)";$("#lb").classList.add("on");$("#lbx").focus()}});
+const cl=()=>$("#lb").classList.remove("on");$("#lbx").onclick=cl;$("#lb").onclick=e=>{if(e.target.id=="lb")cl()};addEventListener("keydown",e=>{if(e.key=="Escape")cl()});
+const P=[["Picnic styling","Styling a picnic for two","Linen, florals and light: the small choices that matter.","4 min"],["Wedding guides","The first six months of planning","What to decide first, and what can wait.","7 min"],["Birthday ideas","Milestone birthday themes","Ideas that feel personal, not themed.","5 min"],["Budgets","Setting an event budget","How to divide a budget before you book anyone.","6 min"],["Corporate trends","What guests expect from corporate events","Experience over speeches.","5 min"],["Décor","Tablescapes that photograph beautifully","Layers, candlelight and restraint.","4 min"],["Seasonal","Celebrations for the long rains","Plan beautiful indoor and outdoor backups.","5 min"],["Behind the scenes","A day in event coordination","What happens before the first guest arrives.","6 min"]];
+function posts(){const s=$("#q").value.toLowerCase();const r=P.map((p,i)=>[p,i]).filter(([p])=>p.join(" ").toLowerCase().includes(s));$("#empty").style.display=r.length?"none":"block";
+$("#posts").innerHTML=r.map(([p,i])=>`<a class="post" href="#journal"><div class="c" style="background:${bg(i+2)}"></div><small>${p[0]} · ${p[3]} read</small><h3>${p[1]}</h3><p>${p[2]}</p></a>`).join("")}
+posts();$("#q").oninput=posts;
+$("#svcs").innerHTML=["Event planning and coordination","Venue sourcing","Décor and styling","Catering","Photography and videography","Entertainment","Equipment and furniture","Transportation and logistics","Invitations and guest management","Other custom requests"].map(s=>`<label><input type="checkbox" name="svc" value="${s}">${s}</label>`).join("");
+let st=0;const fs=[...document.querySelectorAll(".fs")],pr=[...document.querySelectorAll("#prog i")];
+function show(){fs.forEach((f,i)=>f.classList.toggle("on",i==st));pr.forEach((p,i)=>p.classList.toggle("on",i<=st));$("#back").style.visibility=st?"visible":"hidden";$("#next").textContent=st==4?"Send my inquiry":"Continue"}
+function valid(){let ok=true;fs[st].querySelectorAll("[required]").forEach(i=>{const e=i.nextElementSibling;let m="";if(!i.value.trim())m="This field is required.";else if(i.type=="email"&&!/^\S+@\S+\.\S+$/.test(i.value))m="Enter a valid email address.";else if(i.type=="tel"&&i.value.replace(/\D/g,"").length<7)m="Enter a valid phone number.";if(e&&e.className=="err")e.textContent=m;if(m)ok=false});return ok}
+$("#next").onclick=()=>{if(!valid())return;if(st<4){st++;show();return}
+if($("[name=website]").value)return;const d=Object.fromEntries(new FormData($("#form")));d.services=[...document.querySelectorAll("[name=svc]:checked")].map(x=>x.value);console.log("Inquiry (connect a backend to store this):",d);
+$("#form").style.display="none";$("#ok").style.display="block"};
+$("#back").onclick=()=>{st--;show()};show();
+$("#news").onsubmit=e=>{e.preventDefault();$("#nm").textContent="Thank you. Connect a backend to store signups."};
+const nav=$("#nav"),lk=$("#links"),bu=$("#burger");
+const sc=()=>nav.classList.toggle("solid",scrollY>60);addEventListener("scroll",sc);sc();
+bu.onclick=()=>{const o=lk.classList.toggle("open");nav.classList.toggle("menu",o);bu.setAttribute("aria-expanded",o)};
+lk.onclick=e=>{if(e.target.tagName=="A"){lk.classList.remove("open");nav.classList.remove("menu")}};
+</script></body></html>
